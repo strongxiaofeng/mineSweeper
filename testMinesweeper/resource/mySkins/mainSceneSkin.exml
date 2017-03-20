@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mainSceneSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="startGroup" width="1920" height="1" x="0" y="0">
+		<e:Button id="lv1" label="初级" y="326" width="200" height="50" horizontalCenter="0" x="860" scaleX="1" scaleY="1"/>
+		<e:Button id="lv2" label="中级" y="439" width="200" height="50" horizontalCenter="0" x="860" scaleX="1" scaleY="1"/>
+		<e:Button id="lv3" label="高级" y="561" width="200" height="50" horizontalCenter="0" x="860" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="topGroup" width="1920" height="1" x="0" y="0">
+		<e:Label id="totalTxt" text="总雷数:0" x="465" y="30" scaleX="1" scaleY="1"/>
+		<e:Label id="signedMineTxt" text="标记的雷:0" x="679" y="30" scaleX="1" scaleY="1"/>
+		<e:Label id="timeTxt" text="用时:" x="1192" y="30" scaleX="1" scaleY="1"/>
+		<e:Image id="icon" width="50" height="50" horizontalCenter="0" y="20" source="smile_png" x="935" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="gridGroup" width="1" height="1" x="1" y="1"/>
+	<e:Group id="winGroup" width="1920" height="1" x="0" y="0" touchChildren="false" touchEnabled="true" visible="false">
+		<e:Rect width="1920" height="1080" x="0" y="0" scaleX="1" scaleY="1" alpha="0.5"/>
+		<e:Label text="恭喜你，找出了所有的雷" y="466" scaleX="1" scaleY="1" horizontalCenter="0" size="100"/>
+	</e:Group>
+</e:Skin>

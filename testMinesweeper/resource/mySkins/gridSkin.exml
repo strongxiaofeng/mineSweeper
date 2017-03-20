@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="gridSkin" width="20" height="20" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" width="20" height="20" x="0" y="0" source="bg_png"/>
+	<e:Image id="bgOpen" width="20" height="20" x="0" y="0" source="bgOpen_png" visible="false"/>
+	<e:Image id="flagImg" width="20" height="20" x="0" y="0" source="flag_png" visible="false"/>
+	<e:Image id="undefineImg" width="20" height="20" x="0" y="0" source="undefine_png" visible="false"/>
+	<e:Image id="mineImg" width="20" height="20" x="0" y="0" source="mine_png" visible="false"/>
+	<e:Label id="numTxt" text="5" x="0" y="0" size="16" width="20" height="20" textAlign="center" verticalAlign="middle" textColor="0x3f67af"/>
+</e:Skin>
